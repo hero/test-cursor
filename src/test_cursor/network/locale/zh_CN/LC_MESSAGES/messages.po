@@ -1,0 +1,87 @@
+# Chinese translations for test-cursor package
+# Copyright (C) 2024 THE test-cursor'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the test-cursor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: test-cursor 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-17 11:45+0800\n"
+"PO-Revision-Date: 2024-12-17 11:45+0800\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "[yellow]Proxy settings disabled (USE_PROXY=false)[/yellow]"
+msgstr "[yellow]代理设置已禁用 (USE_PROXY=false)[/yellow]"
+
+msgid "[blue]Proxy settings in .env file:[/blue]"
+msgstr "[blue].env 文件中的代理设置:[/blue]"
+
+msgid "\n[yellow]System proxy detected:[/yellow]"
+msgstr "\n[yellow]检测到系统代理设置:[/yellow]"
+
+msgid "Use system proxy?"
+msgstr "是否使用系统代理?"
+
+msgid "[green]System proxy enabled[/green]"
+msgstr "[green]已启用系统代理[/green]"
+
+msgid "[yellow]System proxy skipped[/yellow]"
+msgstr "[yellow]已跳过系统代理[/yellow]"
+
+msgid "[green]Final proxy settings: {proxies}[/green]"
+msgstr "[green]最终使用的代理设置: {proxies}[/green]"
+
+msgid "[yellow]No proxy used[/yellow]"
+msgstr "[yellow]未使用任何代理[/yellow]"
+
+msgid "[red]Error: Configuration file not found {file}[/red]"
+msgstr "[red]错误: 未找到配置文件 {file}[/red]"
+
+msgid "[red]Error: Test domains not configured[/red]"
+msgstr "[red]错误: 未配置测试域名[/red]"
+
+msgid "[green]Test Configuration:[/green]"
+msgstr "[green]测试配置:[/green]"
+
+msgid "Domain list: {domains}"
+msgstr "域名列表: {domains}"
+
+msgid "Test iterations: {iterations}"
+msgstr "测试次数: {iterations}"
+
+msgid "Timeout: {timeout} seconds"
+msgstr "超时时间: {timeout}秒"
+
+msgid "Results path: {path}"
+msgstr "结果路径: {path}"
+
+msgid "[bold green]Network testing in progress...[/bold green]"
+msgstr "[bold green]正在进行网络测试...[/bold green]"
+
+msgid "Testing {domain}"
+msgstr "测试 {domain}"
+
+msgid "\n[bold]Test Results Summary[/bold]"
+msgstr "\n[bold]测试结果摘要[/bold]"
+
+msgid "Metrics"
+msgstr "指标"
+
+msgid "Average Response Time"
+msgstr "平均响应时间"
+
+msgid "Success Rate"
+msgstr "成功率"
+
+msgid "\n[bold green]Recommended Configuration:[/bold green] {rec}"
+msgstr "\n[bold green]建议配置:[/bold green] {rec}"
+
+msgid "Recommend disabling HTTP/2 (set cursor.general.disableHttp2=true)"
+msgstr "建议禁用 HTTP/2 (设置 cursor.general.disableHttp2=true)"
+
+msgid "Recommend keeping HTTP/2 (set cursor.general.disableHttp2=false)"
+msgstr "建议使用默认的 HTTP/2 (设置 cursor.general.disableHttp2=false)" 
